@@ -1,2 +1,2 @@
 # Mecanum_control
-Arduino code to control Mecanum-Wheeled Robot
+Arduino code to control Mecanum-Wheeled Robot using Bluetooth
