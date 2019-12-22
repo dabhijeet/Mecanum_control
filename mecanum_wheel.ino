@@ -1,13 +1,12 @@
-//电机引脚
-#define PWMA 3 //A电机转速
-#define DIRA 2 //A电机转向
-#define PWMB 5 //B电机转速
-#define DIRB 4 //B电机转向
-#define PWMC 6 //A电机转速
-#define DIRC 7 //A电机转向
-#define PWMD 9 //B电机转速
-#define DIRD 8 //B电机转向
-//控制电机运动    宏定义
+
+#define PWMA 3 
+#define DIRA 2 
+#define PWMB 5 
+#define DIRB 4 
+#define PWMC 6 
+#define DIRC 7 
+#define PWMD 9 
+#define DIRD 8 
 int i=2;
 void ANTICLOCKWISE_ROTATION()
 {
@@ -241,6 +240,5 @@ void setup()
 
 void loop()
 { 
-  UART_Control();//串口接收处理 
-  //CAR_Control();//小车控制
+  UART_Control();
 }
